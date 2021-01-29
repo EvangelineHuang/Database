@@ -1,0 +1,117 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           _EmployeeEmail
+
+Specification Type:
+  Unique:  _
+  Generic: _ 
+  Replica: _X 
+Parent Table:         _Employees 
+Label:                _Email
+Source Specification: _Email
+Shared By:            _ 
+Aliases:              _ 
+Description:          _The email is a method of contact for the employee. Every employee has their own email. Since email addresses are unique, every employee will have a different email.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            _VarChar
+Length:               _100
+Decimal Places:       _ 
+Input Mask:           _ 
+Display Format:       _ 
+Character Support:
+  Letters (A-Z):      _X 
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _X
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _X
+
+Key Structure: Simple:     _X
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     _X 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   _X 
+
+Values Entered By: User:   _X 
+                   System: _ 
+
+Required Value:    No:     _ 
+                   Yes:    _X 
+
+Default Value:     _ 
+
+Range of Values:   _ 
+
+Edit Rule:
+  Enter now, edits allowed:       _X 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+Comparisons Allowed:
+  Same Field:   _ 
+                ALL  _
+                =    _X 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+Operations Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Other Fields: _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+NOTES:
+

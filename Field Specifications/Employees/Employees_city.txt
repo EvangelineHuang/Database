@@ -1,0 +1,117 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           city 
+
+Specification Type:
+  Unique:  X 
+  Generic: _ 
+  Replica: _ 
+Parent Table:         Employees 
+Label:                City 
+Source Specification: _ 
+Shared By:            _ 
+Aliases:              _ 
+Description:          The city where the employee currently lives 
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            Alphanumeric 
+Length:               _ 
+Decimal Places:       _ 
+Input Mask:           _ 
+Display Format:       First letter capitalized  
+Character Support:
+  Letters (A-Z):      X 
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        X 
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: X 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   X 
+               No nulls:   _ 
+
+Values Entered By: User:   X 
+                   System: _ 
+
+Required Value:    No:     _ 
+                   Yes:    X 
+
+Default Value:     _ 
+
+Range of Values:   All values that are considered to be a city 
+
+Edit Rule:
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    X 
+
+Comparisons Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  X 
+                ALL  _ 
+                =    X 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+Operations Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Other Fields: X 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    X 
+
+  Value Expr.:  X 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    X 
+
+NOTES:
+

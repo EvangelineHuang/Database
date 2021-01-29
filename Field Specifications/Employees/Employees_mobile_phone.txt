@@ -1,0 +1,117 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           _EmployeeMobilePhone
+
+Specification Type:
+  Unique:  _X
+  Generic: _ 
+  Replica: _ 
+Parent Table:         _Employees
+Label:                _ 
+Source Specification: _ 
+Shared By:            _ 
+Aliases:              _ 
+Description:          _The contact information of an employee, by phone, from their mobile cellular divice.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            _Exact Numeric
+Length:               _10
+Decimal Places:       _ 
+Input Mask:           _ 
+Display Format:       _(XXX)-XXX-XXXX
+Character Support:
+  Letters (A-Z):      _ 
+  Numbers (0-9):      _X
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _X
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   _X
+               No nulls:   _
+
+Values Entered By: User:   _X 
+                   System: _ 
+
+Required Value:    No:     _X 
+                   Yes:    _ 
+
+Default Value:     _ 
+
+Range of Values:   _ 0-9999999999
+
+Edit Rule:
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _X 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+Comparisons Allowed:
+  Same Field:   _ 
+                ALL  _X
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+Operations Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Other Fields: _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+NOTES:
+
