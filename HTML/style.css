@@ -1,0 +1,221 @@
+body{
+  background-color: #EAE7DC;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 150%;
+}
+.username {
+font-family: 'Satisfy', cursive;
+font-size:200%;
+padding:unset;
+margin:unset;
+text-align: center;
+}
+
+table{
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 80%;
+  text-align: left;
+  border-collapse: collapse;
+}
+td, th{
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+tr:nth-child(even) {
+  background: #D0E4F5;
+}
+th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+
+th:first-child {
+  border-left: none;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 10px 5px 10px;
+    text-decoration: none;
+    color: white;
+    background: #E98074;
+    border-bottom: solid 4px #FFA000;
+    border-radius: 15px 15px 0 0;
+    transition: .4s;
+    width:150px;
+    height:50px;
+    font-size:60%
+}
+
+button:hover {
+    background: #A85A4F;
+    color: white;
+
+}
+#Homepage{
+    position: absolute;
+    bottom:20px;
+    left:20px;
+}
+datalist {
+  display: none;
+}
+.outer{
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #D8C3A5;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  width:130px;
+}
+
+.outer .dropdown select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+}
+.submit{
+  display:inline-block;
+  padding:0.5em 3em;
+  border:0.16em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  text-align:center;
+  transition: all 0.15s;
+  border-radius: 6px;
+}
+.submit:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+}
+.submit:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+}
+
+
+
+body{
+	margin:0;
+	padding-left:20px;
+}
+
+.menu{
+	background:#FFC5A7;
+  height:100vh;
+	width:230px;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:5;
+	outline:none;
+	}
+.home{
+	    padding-left: 230px;
+	    display:block;
+
+    }
+
+
+	ul{
+		list-style:none;
+		padding:0.5em 0;
+		margin:0;
+	}
+  li{
+    padding:0.5em 1em 0.5em 3em;
+    font-size:0.95em;
+    background-repeat:no-repeat;
+    background-position:left 15px center;
+    background-size:auto 20px;
+    transition:all 0.15s linear;
+    cursor:pointer;
+}
+
+    li:hover{
+      background-color:rgba(0,0,0,0.1);
+    }
+    li:focus{
+      outline:none;
+    }
+    button#Report, button#Edit, button#Register, button#emlogout, button#Shifts, button#Home{
+        position: unset;
+        display: unset;
+        font-weight: unset;
+        padding: unset;
+        color:unset;
+        background: unset;
+        border-bottom: unset;
+        border-radius: unset;
+        transition: unset;
+        width:unset;
+        height:unset;
+        font-size:unset;
+        border:none;
+        font-family: 'Cabin Condensed', sans-serif;
+        color:black;
+    }
+    button#Report:hover, button#Edit:hover, button#Register:hover{
+        background: unset;
+        color: unset;
+    }
+    a:link {
+      text-decoration: none;
+    }
+    a:hover{
+      color:black;
+    }
+
+#tschedule{
+  height:98vh;
+  width:800px;
+  position: absolute;
+  left:250px;
+  top:20px;
+  overflow: scroll;
+}
+#schedule{
+  width:800px;
+}
+img {
+  border-radius: 50%;
+  width:70px;
+  height:70px;
+}
+#rpt{
+    position: absolute;
+    top:30px;
+    left: 230px;
+  height:98vh;
+  width:1000px;
+  overflow:scroll;
+}
+#report{
+  width:1000px;
+}
+.nohover:hover{
+  background-color:unset;
+}
+form{
+  margin-block-end: unset;
+}
