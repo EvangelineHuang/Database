@@ -1,0 +1,54 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  _A student's test can only be scheduled to take place during the proctoring center's hour of operation. The test must be started and finished during proctoring center's hours.
+
+Constraint: _Check to see if the time interval selected exists within the time scheduled for the proctoring center to be open.
+
+Type:     Database Oriented:     _
+          Application Oriented   _X 
+
+Category: Field Specific:        _X 
+          Relationship Specific: _ 
+
+Test On:  Insert:                _X
+          Delete:                _ 
+          Update:                _X
+
+
+STRUCTURES AFFECTED
+
+Field Names: _Shifts.start_time, Shifts.end_time, Tests.scheduled_start_time, Tests.scheduled_test_duration
+
+Table Names: _Shifts, Tests
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           _ DATETIME
+                   Length:              _ 
+                   Decimal Places:      _ 
+                   Character Support:   _ 
+                   Input Mask:          _ 
+                   Display Format:      _ 
+
+Logical Elements:  Key Type:            _ non key
+                   Key Structure:       _ 
+                   Uniqueness:          _ 
+                   Null Support:        _ 
+                   Values Entered By:   _ User
+                   Default Value:       _ 
+                   Range of Values:     _ 
+                   Comparisons Allowed: _ X
+                   Operations Allowed:  _ 
+                   Edit Rule:           _ Edits allowed
+
+
+ACTION TAKEN
+
+_ 
+
+
+NOTES: _
+

@@ -1,0 +1,54 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  _ A student must have at least one instructor.
+
+Constraint: _ Check to see if a student has at least one instructor.
+
+Type:     Database Oriented:     _ X
+          Application Oriented   _ 
+
+Category: Field Specific:        _ 
+          Relationship Specific: _ X
+
+Test On:  Insert:                _ X
+          Delete:                _ 
+          Update:                _ X
+
+
+STRUCTURES AFFECTED
+
+Field Names: _ InstructorID, StudentID
+
+Table Names: _ Instructors_Students
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           _ 
+                   Length:              _ 
+                   Decimal Places:      _ 
+                   Character Support:   _ 
+                   Input Mask:          _ 
+                   Display Format:      _ 
+
+Logical Elements:  Key Type:            _ PK
+                   Key Structure:       _ CPK
+                   Uniqueness:          _ X
+                   Null Support:        _ 
+                   Values Entered By:   _ 
+                   Default Value:       _ 
+                   Range of Values:     _ 
+                   Comparisons Allowed: _ X
+                   Operations Allowed:  _ 
+                   Edit Rule:           _ Edits allowed
+
+
+ACTION TAKEN
+
+_ 
+
+
+NOTES: _
+

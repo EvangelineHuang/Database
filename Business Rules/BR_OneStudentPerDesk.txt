@@ -1,0 +1,54 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  _ No more than 1 student can occupy a desk at a given time interval. 
+
+Constraint: _ The entries in the Tests table need not only be unique but checked for two records that have matching SeatID's and scheduled start time. 
+
+Type:     Database Oriented:     _ 
+          Application Oriented   _ X
+
+Category: Field Specific:        _ 
+          Relationship Specific: _ 
+
+Test On:  Insert:                _ X
+          Delete:                _ 
+          Update:                _ X
+
+
+STRUCTURES AFFECTED
+
+Field Names: _ StudentID, ScheduledStartTime, Seat ID
+
+Table Names: _ Tests Students Seats
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           _ 
+                   Length:              _ 
+                   Decimal Places:      _ 
+                   Character Support:   _ 
+                   Input Mask:          _ 
+                   Display Format:      _ 
+
+Logical Elements:  Key Type:            _ 
+                   Key Structure:       _ 
+                   Uniqueness:          _ 
+                   Null Support:        _ 
+                   Values Entered By:   _ 
+                   Default Value:       _ 
+                   Range of Values:     _ 
+                   Comparisons Allowed: _ 
+                   Operations Allowed:  _ 
+                   Edit Rule:           _ X
+
+
+ACTION TAKEN
+
+_ Tested when a test event is being inserted or updated in the Tests table, must deny the user from entering the record into the table if scheduling a student for a particular seat and time is already taken by another student. 
+
+
+NOTES: _
+

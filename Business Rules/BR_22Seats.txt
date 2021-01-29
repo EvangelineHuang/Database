@@ -1,0 +1,54 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  _ There can only be a maximum of 22 seats being used at one time. 
+
+Constraint: _ A new testing event cannot be scheduled if there are no seats available. 
+
+Type:     Database Oriented:     _ 
+          Application Oriented   _ X
+
+Category: Field Specific:        _ 
+          Relationship Specific: _ 
+
+Test On:  Insert:                _ X
+          Delete:                _ 
+          Update:                _ X
+
+
+STRUCTURES AFFECTED
+
+Field Names: _ 
+
+Table Names: _
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           _ 
+                   Length:              _ 
+                   Decimal Places:      _ 
+                   Character Support:   _ 
+                   Input Mask:          _ 
+                   Display Format:      _ 
+
+Logical Elements:  Key Type:            _ 
+                   Key Structure:       _ 
+                   Uniqueness:          _ 
+                   Null Support:        _ 
+                   Values Entered By:   _ 
+                   Default Value:       _ 
+                   Range of Values:     _ 
+                   Comparisons Allowed: _ 
+                   Operations Allowed:  _ 
+                   Edit Rule:           _ X
+
+
+ACTION TAKEN
+
+_ When a testing event is being inserted or updated into the Tests table, the system must check how many seats are occupied within a certain interval of time, and either accepting or denying the entry being added into the system depending on if there are less than 22 seats being used or 22 seats being used. 
+
+
+NOTES: _
+
