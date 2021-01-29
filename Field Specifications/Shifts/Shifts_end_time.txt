@@ -1,0 +1,117 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           end_time 
+
+Specification Type:
+  Unique:  X 
+  Generic: _ 
+  Replica: _ 
+Parent Table:         Shifts 
+Label:                _ 
+Source Specification: _ 
+Shared By:            _ 
+Aliases:              _ 
+Description:          The time indicate when the shift of the employee ends and how long does the employee work. 
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            DateTime 
+Length:               _ 
+Decimal Places:       _ 
+Input Mask:           YYYY/MM/DD H:M:S 
+Display Format:       YYYY/MM/DD H:M:S 
+Character Support:
+  Letters (A-Z):      X 
+  Numbers (0-9):      X 
+  Keyboard (.,/$#%):  X 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        X 
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     X 
+
+Null Support:  Nulls OK:   X 
+               No nulls:   _ 
+
+Values Entered By: User:   X 
+                   System: _ 
+
+Required Value:    No:     X 
+                   Yes:    _ 
+
+Default Value:     _ 
+
+Range of Values:   _ 
+
+Edit Rule:
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     X 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+Comparisons Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  X 
+                ALL  _ 
+                =    X 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+Operations Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Other Fields: X 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    X 
+
+  Value Expr.:  X 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    X 
+
+NOTES:
+
