@@ -1,0 +1,36 @@
+VIEW SPECIFICATIONS
+
+GENERAL INFORMATION
+
+Name: _ Student Current Test List
+
+Desciption: _ 
+
+Type: Data:       _ X
+      Aggregate:  _
+      Validation: _ 
+
+
+BASE TABLES
+
+_ Tests, Students, Instructor Students, Instructors
+
+
+CALCULATED FIELD EXPRESSIONS
+
+Field Name              Expression                   
+_ Test Time                    _ Sch Start Time
+_ Instructor                   _ InstructorLastName
+_ Status		       _ Status
+
+
+FILTERS
+
+Field Name              Condition
+_ Sch Start Time        _ >= NOW()-INT(2 Hours)
+_ Student ID            _ = "working student ID"
+_.                      _ 
+
+
+NOTES: _ 
+

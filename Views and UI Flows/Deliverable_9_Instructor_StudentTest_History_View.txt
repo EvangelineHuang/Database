@@ -1,0 +1,36 @@
+VIEW SPECIFICATIONS
+
+GENERAL INFORMATION
+
+Name: _ Instructor StudentsTests History
+
+Desciption: _ Shows past tests an instructor has scheduled for students.
+
+Type: Data:       _ X
+      Aggregate:  _
+      Validation: _ 
+
+
+BASE TABLES
+
+_ Instructors, Students, Tests, StudentsTests
+
+
+CALCULATED FIELD EXPRESSIONS
+
+Field Name              Expression
+_                       _ 
+_                       _ 
+_                       _ 
+
+
+FILTERS
+
+Field Name              Condition
+_  scheduledStartTime   _ Where min dateTime <= scheduledStartTime <= max dateTime
+_                       _ 
+_                       _ 
+
+
+NOTES: _ 
+

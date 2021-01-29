@@ -1,0 +1,36 @@
+VIEW SPECIFICATIONS
+
+GENERAL INFORMATION
+
+Name: Future Employee Shifts 
+
+Desciption: This view provides information that allows employees to keep track of their schedules. 
+
+Type: Data:       X 
+      Aggregate:  _
+      Validation: _ 
+
+
+BASE TABLES
+
+Employees, Shifts
+
+
+CALCULATED FIELD EXPRESSIONS
+
+Field Name              Expression
+Employee Name           employee_first_name ||" "|| employee_last_name
+_                       _
+_                       _ 
+
+
+FILTERS
+
+Field Name              Condition
+start_time              >=Now()
+_                       _ 
+_                       _ 
+
+
+NOTES: _ 
+

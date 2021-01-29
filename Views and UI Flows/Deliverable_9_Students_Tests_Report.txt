@@ -1,0 +1,36 @@
+VIEW SPECIFICATIONS
+
+GENERAL INFORMATION
+
+Name: Student Tests Report
+
+Desciption: This view provides information that is used to create a report that includes all the tests that have already finished by the students.  
+
+Type: Data:       X 
+      Aggregate:  _
+      Validation: _ 
+
+
+BASE TABLES
+
+Instructors, Instructors_Students, Students, Students_Seats, Seats, Tests
+
+
+CALCULATED FIELD EXPRESSIONS
+
+Field Name              Expression
+Student Name            student_first_name||' '||student_last_name 
+Instructor Name         instructor_first_name||' '||instructor_last_name
+Tests Duration          end_time-start_time 
+
+
+FILTERS
+
+Field Name              Condition
+end_time                <Now()
+_                       _ 
+_                       _ 
+
+
+NOTES: _ 
+
