@@ -1,0 +1,59 @@
+Team Genesis 
+Gibson, Huang, Ko
+Revised Tables and Fields
+10/22/19
+
+
+Table:				            Fields:
+
+Instructors
+			                instructor_id (PK)
+				            email
+				            password
+				            first_name
+				            last_name	
+
+Students
+				            student_id (PK)
+			            	email
+			            	password
+			            	first_name
+				            last_name
+							
+Employees
+				            employee_id (PK)
+				            first_name
+				            last_name
+			            	mobile_phone
+			            	home_phone
+				            address
+				            state
+				            zip_code
+				            city
+				            email
+				            password
+			            	is_proctor		
+
+Shifts		                employee_id(FK)
+                            shift_id(PK)
+				            start_time
+				            end_time
+			
+Seats
+                            seat_id (PK)
+				            has_computer
+				            availability
+
+Tests                       Seat_id  (FK)(CPK)
+				            scheduled_start_time  (CPK)
+				            scheduled_test_duration
+				            actual_start_time
+				            actual_end_time
+			            	test_status
+			            	test_type
+			            	delivered
+			            	instructor_id        (FK)(CPK)
+			            	student_id           (FK)(CPK)
+			            	employee_id          (FK)(CPK)
+			            	
+                        
