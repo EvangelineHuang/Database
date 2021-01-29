@@ -1,0 +1,117 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           Actual Start Time 
+
+Specification Type:
+  Unique:  YES 
+  Generic: _ 
+  Replica: _ 
+Parent Table:         Tests 
+Label:                _ 
+Source Specification: _ 
+Shared By:            _ 
+Aliases:              _ 
+Description:          Recorded time that student begins test. 
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            DateTime 
+Length:               _ 
+Decimal Places:       _ 
+Input Mask:           YYYY-MM-DD HH:MI:SS 
+Display Format:       2019-10-07 14:30:00 
+Character Support:
+  Letters (A-Z):      _ 
+  Numbers (0-9):      YES 
+  Keyboard (.,/$#%):  YES 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        YES 
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: YES 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   YES 
+               No nulls:   _ 
+
+Values Entered By: User:   YES 
+                   System: _ 
+
+Required Value:    No:     YES 
+                   Yes:    _ 
+
+Default Value:     _ 
+
+Range of Values:   the value in this field should be greater than or equal to the value in the scheduled_start_time in the same row.  
+
+Edit Rule:
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     YES 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+Comparisons Allowed:
+  Same Field:   YES 
+                ALL  _ 
+                =    YES 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    YES 
+                <=   _ 
+
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  YES 
+                ALL  YES
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+Operations Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Other Fields: _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+NOTES:
+

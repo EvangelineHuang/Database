@@ -1,0 +1,117 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           Test Duration 
+
+Specification Type:
+  Unique:  YES 
+  Generic: _ 
+  Replica: _ 
+Parent Table:         Tests
+Label:                _ 
+Source Specification: _ 
+Shared By:            _ 
+Aliases:              _ 
+Description:          A length of time that the student has to take the particular test 
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            Interval 
+Length:               _ 
+Decimal Places:       _ 
+Input Mask:           ### Minutes 
+Display Format:       090 Minutes 
+Character Support:
+  Letters (A-Z):      _ 
+  Numbers (0-9):      YES 
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        YES 
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   YES
+
+Values Entered By: User:   YES 
+                   System: _ 
+
+Required Value:    No:     _ 
+                   Yes:    YES 
+
+Default Value:     _ 
+
+Range of Values:   _ 
+
+Edit Rule:
+  Enter now, edits allowed:       YES
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+Comparisons Allowed:
+  Same Field:   YES 
+                ALL  _ 
+                =    YES 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  YES 
+                ALL  _ 
+                =    YES 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+Operations Allowed:
+  Same Field:   YES 
+                ALL  _ 
+                +    YES 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Other Fields: YES 
+                ALL  _ 
+                +    YES 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+NOTES:
+
