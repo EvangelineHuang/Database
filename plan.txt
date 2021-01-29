@@ -1,0 +1,105 @@
+﻿The plan should consist of every PHP or HTML page you plan to create, with the following information:
+
+
+* The file name (example: new_project.php)
+* A one-line description of how the page functions in your application (example: This page provides the interface for the user to fill in all the information for a new project)
+* What POST or GET variables will it check for upon loading (give these a name, since your team members will need to know what variables to set before loading your new_project.php page)? What are the types of these variables? (Note: There may also be cookies and session variables, but you can modify your plan to include these later.)
+* Which team member has primary responsibility for creating the page?
+* Which team member has primary responsibility for testing the page? (This could be the same team member or someone else on the team. In general, I think it's better to let someone else test it.)
+* Are there any dependencies? For example, if you reach new_project.php from index.php, then you should probably write index.php first. 
+* What is your target date for having the PHP page operational? 
+
+
+PAGES:
+Login
+* Matt Ko, creator
+* Courtney Gibson, tester
+* login.php
+* This page provides a way for a user to login, whether they are  a student, instructor, or employee, to view, update, or add information to the ACME proctoring center database.
+* POST/GET
+   * Post user email and password
+   * Get user id and password
+* Target Date: 11/20/19
+Student Homepage 
+* Matt Ko, creator
+* Xinping, tester
+* student_home.php
+* This page provides a student with information on upcoming testing reservations they are signed up for and allows them to see a history of previous tests they have taken in the proctoring center. 
+* POST/GET
+   * Get student id variable (int) passed from login page. 
+   * Get the date for the day
+   * Get views for student
+* Dependency: login.php
+* Target Date: 11/22/19
+Instructor Homepage 
+* Insturctor_home.php
+* This page provides the Instructors up to date, and an archived historical, schedule of students they have registered to take a test at the proctoring center.
+* POST / GET
+   * Get instructor id
+   * Get date for the day
+   * Get views for the instructor’s students scheduled tests
+* Creator: Courtney Gibson
+* Tester: Matthew Ko
+* Dependencies: login.php
+* Target Date: 11/22/19
+
+
+Register form
+* register_form.php
+* This form takes lets instructors and employees enter data to register a student to take a test at the proctoring center.
+* POST / GET 
+   * Get instructor or employee id
+   * Post student id
+   * Post data entered into form
+* Creator: Courtney Gibson
+* Tester: Xinping Huang
+* Dependencies: Instructor_home.php, employee_home.php
+* Target Date: 11/22/19
+
+
+Edit Form
+* edit_form.php
+* This form takes lets instructors and employees edit data for a student that has been registered to take a test at the proctoring center.
+* POST / GET 
+   * Get instructor or employee id
+   * Post student id
+   * Post data entered into form
+* Creator: Courtney Gibson
+* Tester: Matthew Ko
+* Dependencies: Instructor_home.php, employee_home.php
+* Target Date: 11/22/19
+
+
+Employee Homepage
+*  Xinping Huang
+* employee_home.php
+* The page provides certain days’ schedules of students that they need to proctor for that day. 
+* POST/GET:
+1. GET employee id 
+2. POST specific day’s schedule
+* Tester: Courtney Gibson
+* Dependency: login.php
+* Target Date: 11/22/19
+Report
+* Xinping Huang
+* Employee_report.php
+* Employees can use this page to create a report from different aspects for data analysis. 
+* Tester: Matthew Ko
+* POST/GET:
+1. GET information of the report the employees want to create
+2. POST the report for the employees. 
+* Dependency: employee_home.php
+* Target Date: 11/22/19
+
+
+Shifts
+* Matt Ko, creator
+* Courtney Gibson, tester
+* shifts.php
+* This page provides a view that employees use to see their and other employee’s shifts for a certain period of time. 
+* POST/GET
+   * Get employee id from employee_home.php
+   * Get current date
+   * Get view from shifts
+* Dependency: employee_home.php
+* Target Date: 11/24/19
