@@ -1,0 +1,26 @@
+Mission Statement and Objectives
+
+Deliverable 2: CSC 362
+
+9/22/19
+
+Team Genesis
+Matt Ko, Xinping Huang, Courtney Gibson
+
+---------Mission Statement----------
+
+The purpose of the ACME database is to maintain data the proctoring service utilizes to manage testing services provided to our clientele. 
+
+---------Mission Objectives---------
+
+Maintain necessary instructor information
+
+Maintain necessary student information
+
+Maintain necessary proctor information
+
+Maintain necessary testing schedule information
+
+Maintain employee schedule information
+
+Provide records for analytical purpose

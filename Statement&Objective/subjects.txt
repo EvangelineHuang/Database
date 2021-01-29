@@ -1,0 +1,50 @@
+Team Genesis 
+Preliminary tables and fields
+9/22/19
+
+
+Subjects:		Characteristics:
+
+Instructors
+				email
+				password
+				Fname
+				Lname	
+
+Students
+				email
+				password
+				Fname
+				Lname
+			
+Proctors
+				availibility
+			
+Centers
+				address
+				capacity
+				
+Employees
+				Fname
+				Lname
+				mobilePhone
+				homePhone
+				address
+				email
+				password		
+			
+Seats
+				availility
+				hasComputer
+				locaitonStatus
+
+Tests
+				scheduledStartTime
+				scheduledTestDuration
+				actualStartTime
+				actualEndTime
+				testStatus
+				testType
+				delivered
+			
+
